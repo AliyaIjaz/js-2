@@ -1,0 +1,64 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 50px;
+    padding: 0;
+}
+
+#genre{
+    width: 200px;
+    height:40px;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+    
+}
+
+#year {
+    width: 200px;
+    height:40px;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+}
+#lang{
+    width: 200px;
+    height:40px;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+}
+
+#rating{
+    width: 700px;
+    height:40px;
+    padding: 10px;
+    /* outline: none; */
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.three-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.single-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
